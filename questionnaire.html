@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Cabinet dentaire Port Caraïbes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+
+
+
+
+	<body>
+			<header id="header">
+				<div class="logo"><a href="index.html">Cabinet dentaire Port Caraïbes<span></br><a href="#">
+					<center><div class="circle">
+					<img src="logo.png" width ="120" />
+				</div></center>
+			</a></span></a></div>
+			</header>
+			<section id="main">
+				<div class="inner">
+					<br>
+					<nav>
+						<a href="index.html">Accueil</a>
+						<a href="equipe.html">L'équipe</a>
+						<a href="techno.html">Technologies-spécialités</a>
+						<a href="contact.html">Contact</a>
+						<a href="questionnaire.html"><span style="color:#54a354"><u>Questionnaire COVID-19</u></span></a>
+						<div class="animation start-home"></div>
+					</nav><br><br><br>
+
+					<section id="one" class="wrapper style1">
+						<center><br>
+							<h2>Accueil</h2>
+						</center>
+						<div class="content">
+
+
+
+						<script>
+									 
+									 function Valider()
+									 {
+									 rep = "";
+									 repq6 = "";
+									
+									rep += document.getElementById('q0c1').value;
+									rep += "%0A";
+									rep += document.getElementById('q0c2').value;
+									rep += "%0A";
+									rep += document.getElementById('q0c3').value;
+									rep += "%0A";
+									
+									if(document.getElementById('q1c1').checked == true){
+									rep += "a%20eu%20un%20contact%20avec%20le%20COVID%0A"
+										}
+									else if(document.getElementById('q1c2').checked == true){
+									rep += "Ne%20sais%20pas%20si%20il%20y%20a%20eu%20contact%20avec%20le%20COVID-19%0A"
+										}
+									
+									if(document.getElementById('q2c1').checked == true){
+									rep += "Pas%20de%20contact%20avec%20quelqu'un%20présentant%20des%20symptômes%0A"
+										}
+									else if(document.getElementById('q2c2').checked == true){
+									rep += "A%20eu%20contact%20avec%20quelqu'un%20présentant%20les%20symptômes%20du%20COVID-19%20il%20y%20a%20moins%20d'une%20semaine%0A"
+										}
+									else if(document.getElementById('q2c3').checked == true){
+									rep += "A%20eu%20contact%20avec%20quelqu'un%20présentant%20les%20symptômes%20du%20COVID-19%20il%20y%20a%20moins%20de%20deux%20semaines%0A"
+										}
+									else if(document.getElementById('q2c4').checked == true){
+									rep += "A%20eu%20contact%20avec%20quelqu'un%20présentant%20les%20symptômes%20du%20COVID-19%20il%20y%20a%20plus%20de%20deux%20semaines%0A"
+										}
+									
+									if(document.getElementById('q3c1').checked == true){
+									rep += "Pense%20avoir%20été%20exposé%20au%20COVID-19%0A"
+										}
+									else if(document.getElementById('q3c2').checked == true){
+									rep += "Ne%20pense%20pas%20avoir%20été%20exposé%20au%20COVID-19%0A"
+										}
+										
+									rep += "%0ALe%20patient%20présente%20les%20symptômes%20suivants:%0A"
+									
+									
+									if(document.getElementById('q4c1').checked == true){
+									rep += "Toux%0A"
+										}
+									if(document.getElementById('q4c2').checked == true){
+									rep += "Température%0A"
+										}
+									if(document.getElementById('q4c3').checked == true){
+									rep += "Fatigue%20inhabituelle%0A"
+										}
+									if(document.getElementById('q4c4').checked == true){
+									rep += "Perte%20de%20goût%20et%20d'odorat%0A"
+										}
+									if(document.getElementById('q4c5').checked == true){
+									rep += "Diarhée%0A"
+										}
+										
+										
+										
+									if(document.getElementById('q5c1').checked == true){
+									rep += "Peut%20être%20considéré%20comme%20étant%20une%20personne%20à%20risque%20de%20forme%20grave%20de%20COVID%0A"
+										}
+									else if(document.getElementById('q5c2').checked == true){
+									rep += "N'est%20pas%20considéré%20comme%20étant%20une%20personne%20à%20risque%20de%20forme%20grave%20de%20COVID%0A"
+										}
+									else if(document.getElementById('q5c3').checked == true){
+									rep += "Pense%20être%20considéré%20comme%20étant%20une%20personne%20à%20risque%20de%20forme%20grave%20de%20COVID%0A"
+										}
+
+
+									if(document.getElementById('q6c1').checked == true){
+									rep += "A%20voyagé%20hors%20de%20Guadeloupe%20pendant%20les%20quinzes%20derniers%20jours%0A"
+										}
+									else if(document.getElementById('q6c2').checked == true){
+									rep += "N'a%20pas%20voyagé%20hors%20de%20Guadeloupe%20pendant%20les%20quinzes%20derniers%20jours%0A"
+										}
+
+									rep += document.getElementById('q6c3').value;
+									rep += "%0A";
+
+
+									var mailto_link = 'mailto:' + "caroline.ragot@wanadoo.fr" + '?subject=' + "Questionnaire%20COVID-19" + '&body=' + rep;
+
+									window.open(mailto_link, 'emailWindow');
+									}
+							</script>
+									
+
+
+
+
+							Nous mettons actuellement tout en oeuvre pour vous recevoir dans des conditions de protection et de sécurité optimales.
+							Les docteurs Ragot, Kvot et Panabières seront prêts à vous recevoir dès le 14 mai, conformément aux dispositions médicales.
+							Notre secr
+							<form id="quiz">
+  
+  <!--Question 0-->
+      <h4>Veuillez renseigner les champs suivants</h4>
+    <p><label>Nom<input type="text" id='q0c1' name="q1">
+      
+    </label><br />
+    <label>Prénom<input type="text" id='q0c2' name="q1">
+      
+    </label><br />
+	   <label>Date de Rendez-vous<input type="text" id='q0c3' name="q1">
+      
+    </label><br />
+	
+	</p>
+  
+  
+  
+    <!-- Question 1 -->
+    <h4>Avez-vous été en contact avec quelqu'un atteint du COVID-19 ?</h4>
+	
+    <p><label><input type="radio" id='q1c1' name="q1">
+      Oui
+    </label><br />
+    <label><input type="radio" id='q1c2' name="q1">
+      Ne sais pas
+    </label><br /></p>
+
+
+    <!-- Question 2 -->
+    <h4>Avez-vous été en contact avec quelqu'un présentant les symptômes du COVID-19 ?</h4>
+    <p><label><input type="radio" id='q2c1' name="q2">
+      Non
+    </label><br />
+	<label><input type="radio" name="q2" id='q2c2'>
+      Oui, il y a moins d'une semaine
+    </label><br />
+	<label><input type="radio" name="q2" id='q2c3' >
+      Oui, il y a moins de deux semaines
+    </label><br />
+    <label><input type="radio" name="q2" id='q2c4'>
+      Oui, il y a plus de deux semaines
+    </label><br /></p>
+    <!-- Question 3 -->
+    <h4>Pensez-vous avoir été exposé au COVID-19 ?</h4>
+   <p><label><input type="radio" name="q3" id='q3c1'>
+      Je pense avoir été exposé
+    </label><br />
+ 
+    <label><input type="radio" name="q3"  id='q3c2'>
+      Je ne pense pas avoir été exposé
+    </label><br />
+	
+	    <!-- Question 4 -->
+    <h4>Aujourd'hui présentez-vous les symptomes suivants ?</h4>
+   <p><label><input type="CHECKBOX" name="q4" id='q4c1'>
+		Toux
+    </label><br />
+    <label><input type="CHECKBOX" name="q4" id='q4c2'>
+		Température
+    </label><br />
+	<label><input type="CHECKBOX" name="q4" id='q4c3'>
+		Fatigue inhabituelle
+    </label><br />
+    <label><input type="CHECKBOX" name="q4" id='q4c4'>
+		Perte de goût ou d'odorat
+	</label><br />
+    <label><input type="CHECKBOX" name="q4" id='q4c5'>
+		Diarrhée
+    </label><br /></p>
+    
+	
+        <!-- Question 5 -->
+	    <h4>Êtes-vous considéré comme une personne à risque de formes graves de COVID-19 ?</h4>
+    <p><label><input type="radio" name="q5"  id='q5c1'>
+      Oui
+    </label><br />
+    <label><input type="radio" name="q5"  id='q5c2'>
+      Non
+    </label><br />
+	<label><input type="radio" name="q5" id='q5c3'>
+      Je pense
+    </label><br />
+    <br /></p>
+
+
+        <!-- Question 5 -->
+	    <h4>Avez-vous voyager hors de Guadeloupe pendant les 15 derniers jours ?</h4>
+    <p><label><input type="radio" name="q6"  id='q6c1'>
+      Oui
+    </label><br />
+    <label><input type="radio" name="q6"  id='q6c2'>
+      Non
+    </label></p>
+	<label>Si oui, où ?<input type="text" id='q6c3' name="q6">
+    </label><br />
+
+	<h2><center>En envoyant ce mail, vous attestez sur l'honneur l'exactitude des renseignements et acceptez la réalisation de soins au prochain RDV
+	</center></h2>
+    <center><button type="submit" id="submit" onclick="Valider()" onclick=<a href="mailto:panabiereshector@gmail ?body="rep></a>
+	<b>Soumettre le questionnaire</button>
+  </form></center>
+		 <h5><b><center>&#9888;Pensez à porter votre masque pour votre venue au cabinet&#9888;</center><b></h5>
+		
+
+						</div>
+					</section>
+
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				
+			</footer>
+
+		<!-- Scripts -->
+			<script src="jquery.min.js"></script>
+			<script src="jquery.poptrox.min.js"></script>
+			<script src="skel.min.js"></script>
+			<script src="util.js"></script>
+			<script src="main.js"></script>
+
+	</body>
+</html>
