@@ -2881,7 +2881,7 @@
 				body:after {
 					background-attachment: scroll;
 					background-position: top;
-					background-size: 100%;
+					background-size: 300%;
 				}
 
 			}
@@ -3125,10 +3125,11 @@ nav {
 	border-radius: 30px;
 	font-size: 0;
 }
+
 nav a {
 	line-height: 50px;
-	height: 100%;
-	font-size: 0.8rem;
+	height: 10%;
+	font-size: 1rem;
 	font-weight: bold;
 	display: inline-block;
 	position: relative;
@@ -3139,6 +3140,26 @@ nav a {
 	color: white;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 736px) {
+
+		nav a {
+		line-height: 50px;
+			height: 10%;
+			font-size: 0.7rem;
+			font-weight: bold;
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-align: center;
+			color: white;
+			cursor: pointer;
+		}
+}
+
+
 nav .animation {
 	position: absolute;
 	height: 100%;
