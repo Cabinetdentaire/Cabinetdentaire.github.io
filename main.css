@@ -3157,6 +3157,22 @@ nav a {
 			color: white;
 			cursor: pointer;
 		}
+@media screen and (max-width: 500px) {
+
+		nav a {
+		line-height: 50px;
+			height: 10%;
+			font-size: 0.5rem;
+			font-weight: bold;
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-align: center;
+			color: white;
+			cursor: pointer;
+		}
 }
 
 
