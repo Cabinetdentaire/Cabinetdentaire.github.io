@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+ @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
@@ -3157,7 +3157,7 @@ nav a {
 			color: white;
 			cursor: pointer;
 		}
-}
+	}
 @media screen and (max-width: 500px) {
 
 		nav a {
