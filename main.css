@@ -3228,10 +3228,49 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 
 .circle{
-    margin:2rem;
+	margin:2rem;
     width:10rem;
     background: white;
     height:10rem;
     text-align:center;
     border-radius:100px;
     line-height: 13.8rem; 
+	}
+
+@media screen and (max-width: 1900px) {
+		.circle{
+	    margin:2rem;
+	    width:10rem;
+	    background: white;
+	    height:10rem;
+	    text-align:center;
+	    border-radius:100px;
+	    line-height: 15.5rem; 
+		}
+	}
+
+@media screen and (max-width: 1000px) {
+		.circle{
+	    margin:2rem;
+	    width:10rem;
+	    background: white;
+	    height:10rem;
+	    text-align:center;
+	    border-radius:100px;
+	    line-height: 15.5rem; 
+		}
+	}
+
+
+@media screen and (max-width: 736px) {
+		.circle{
+	    margin:2rem;
+	    width:10rem;
+	    background: white;
+	    height:10rem;
+	    text-align:center;
+	    border-radius:100px;
+	    line-height: 15.7rem; 
+		}
+	}
+
